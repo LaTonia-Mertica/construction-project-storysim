@@ -1,10 +1,10 @@
 # CONSTRUCTION PROJECT STORYSIM
 
-WHO:
-WHAT:
-WHEN:
-WHERE:
-HOW:
+WHO:<br>
+WHAT:<br>
+WHEN:<br>
+WHERE:<br>
+HOW:<br>
 
 WHY:
 
