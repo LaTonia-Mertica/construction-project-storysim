@@ -1,2 +1,15 @@
-# construction-project-storysim
-construction project site 3d renderer
+# CONSTRUCTION PROJECT STORYSIM
+
+WHO:
+WHAT:
+WHEN:
+WHERE:
+HOW:
+
+WHY:
+
+TECH STACK
+
+MENTOR SUPORT
+
+RESOURCES
