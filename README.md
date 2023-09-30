@@ -1,15 +1,15 @@
 # CONSTRUCTION PROJECT STORYSIM
 
-WHO:<br>
-WHAT:<br>
-WHEN:<br>
-WHERE:<br>
-HOW:<br>
+**WHO:**<br>
+**WHAT:**<br>
+**WHEN:**<br>
+**WHERE:**<br>
+**HOW:**<br>
 
-WHY:
+**WHY:**
 
-TECH STACK
+**TECH STACK**
 
-MENTOR SUPORT
+**MENTOR SUPORT**
 
-RESOURCES
+**RESOURCES**
