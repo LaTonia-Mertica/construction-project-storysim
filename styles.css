@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* margin = placeholder to remove warning  */
+    /* styles here */
+}
+
+.grid-div {
+    margin: 0;
+    /* margin = placeholder to remove warning  */
+    /* styles here */
+}
+
+.background-div {
+    margin: 0;
+    /* margin = placeholder to remove warning  */
+    /* styles here */
+}
+
+section.title-description-links-credit {
+    margin: 0;
+    /* margin = placeholder to remove warning  */
+    /* styles here */
+}
+
+h1 {
+    background-color: transparent;
+    /* background color = placeholder to remove warning  */
+    /* styles here */
+}
+
+h2 {
+    background-color: transparent;
+    /* background color = placeholder to remove warning  */
+    /* styles here */
+}
+
+p {
+    background-color: transparent;
+    /* background color = placeholder to remove warning  */
+    /* styles here */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.column {
+    margin: 0;
+    /* margin = placeholder to remove warning  */
+    /* styles here */
+}
+
+a {
+    background-color: transparent;
+    /* background color = placeholder to remove warning  */
+    /* styles here */
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    background-color: transparent;
+    /* background color = placeholder to remove warning  */
+    /* styles here */
+}
+
+.footer-link {
+    background-color: transparent;
+    /* background color = placeholder to remove warning  */
+    /* styles here */
+}
