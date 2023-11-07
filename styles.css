@@ -23,6 +23,16 @@ body {
     /* styles here */
 }
 
+button.toggleBtn {
+    text-shadow: 5em solid #000;
+}
+
+.toggleBtn {
+    color: #1A170F;
+    margin-top: 1.25em;
+    margin-left: 1.25em;
+}
+
 section.title-description-links-credit {
     margin: 0;
     /* margin = placeholder to remove warning  */
