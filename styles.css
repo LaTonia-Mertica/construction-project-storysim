@@ -87,15 +87,21 @@ footer {
     background-color: transparent;
 }
 
+footer {
+    float: right;
+    margin-top: 3.75em;
+}
+
 .footer-link {
-    background-color: transparent;
+    text-decoration: none;
 }
 
 /* COLORS  */
 .toggleBtn,
 h1,
 h2,
-.subscribeBtn {
+.subscribeBtn,
+.footer-link {
     color: #1A170F;
 }
 
@@ -109,7 +115,8 @@ h1,
 h2,
 .bodyProjectTitle,
 .subscribeText,
-.subscribeBtn {
+.subscribeBtn,
+.footer-link {
     font-family: Orbitron, sans-serif;
 }
 
