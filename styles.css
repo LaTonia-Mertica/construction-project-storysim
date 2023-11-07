@@ -5,46 +5,63 @@
 }
 
 body {
-    margin: 0;
     background-color: #fff;
 }
 
 .grid-div {
-    margin: 0;
+    background-color: #fff;
 }
 
 .background-div {
-    margin: 0;
+    background-color: #fff;
 }
 
 .toggleBtn {
     color: #1A170F;
     margin-top: 1.25em;
-    margin-left: 1.25em;
+    --fa-beat-fade-scale: 1.25;
+    --fa-animation-duration: 3.7s;
+}
+
+.toggleBtn:hover {
+    background-color: transparent;
 }
 
 section.title-description-links-credit {
-    margin: 0;
-    /* margin = placeholder to remove warning  */
-    /* styles here */
+    background-color: #fff;
 }
 
 h1 {
-    background-color: transparent;
-    /* background color = placeholder to remove warning  */
-    /* styles here */
+    font-size: 9em;
+    margin: 0 9%;
 }
 
 h2 {
+    font-size: 2.25em;
+}
+
+.bodyProjectTitle {
     background-color: transparent;
-    /* background color = placeholder to remove warning  */
-    /* styles here */
 }
 
 p {
+    width: 43%;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+form {
     background-color: transparent;
-    /* background color = placeholder to remove warning  */
-    /* styles here */
+}
+
+.subscribeText,
+.subscribeBtn {
+    margin-bottom: 5em;
+}
+
+.subscribeBtn {
+    font-weight: bold;
 }
 
 .row {
@@ -54,15 +71,11 @@ p {
 }
 
 .column {
-    margin: 0;
-    /* margin = placeholder to remove warning  */
-    /* styles here */
+    background-color: transparent;
 }
 
 a {
     background-color: transparent;
-    /* background color = placeholder to remove warning  */
-    /* styles here */
 }
 
 img {
@@ -72,12 +85,48 @@ img {
 
 footer {
     background-color: transparent;
-    /* background color = placeholder to remove warning  */
-    /* styles here */
 }
 
 .footer-link {
     background-color: transparent;
-    /* background color = placeholder to remove warning  */
-    /* styles here */
+}
+
+/* COLORS  */
+.toggleBtn,
+h1,
+h2,
+.subscribeBtn {
+    color: #1A170F;
+}
+
+.toggleBtn:hover,
+.subscribeBtn:hover {
+    color: #50C2C7;
+}
+
+/* FONT FAMILIES */
+h1,
+h2,
+.bodyProjectTitle,
+.subscribeText,
+.subscribeBtn {
+    font-family: Orbitron, sans-serif;
+}
+
+/* MARGINS */
+body,
+.grid-div,
+.background-div,
+section.title-description-links-credit {
+    margin: 0;
+}
+
+.toggleBtn,
+h2 {
+    margin-left: 1.25em;
+}
+
+p,
+form {
+    margin-left: 3em;
 }
