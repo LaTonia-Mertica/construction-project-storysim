@@ -7,24 +7,14 @@
 body {
     margin: 0;
     background-color: #fff;
-    /* margin = placeholder to remove warning  */
-    /* styles here */
 }
 
 .grid-div {
     margin: 0;
-    /* margin = placeholder to remove warning  */
-    /* styles here */
 }
 
 .background-div {
     margin: 0;
-    /* margin = placeholder to remove warning  */
-    /* styles here */
-}
-
-button.toggleBtn {
-    text-shadow: 5em solid #000;
 }
 
 .toggleBtn {
