@@ -84,12 +84,8 @@ img {
 }
 
 footer {
-    background-color: transparent;
-}
-
-footer {
     float: right;
-    margin-top: 3.75em;
+    margin: 3.75em 0;
 }
 
 .footer-link {
@@ -106,7 +102,8 @@ h2,
 }
 
 .toggleBtn:hover,
-.subscribeBtn:hover {
+.subscribeBtn:hover,
+.footer-link:hover {
     color: #50C2C7;
 }
 
