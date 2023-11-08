@@ -36,6 +36,10 @@ h1 {
     margin: 0 9%;
 }
 
+.charColor {
+    text-shadow: .05em .05em .05em #1A170F;
+}
+
 h2 {
     font-size: 2.25em;
 }
@@ -55,13 +59,28 @@ form {
     background-color: transparent;
 }
 
+input#MERGE0 {
+    border: none;
+    border-bottom: .05em dotted #1A170F;
+}
+
+::placeholder {
+    color: #c8c4bd;
+    font-size: x-small;
+}
+
 .subscribeText,
 .subscribeBtn {
     margin-bottom: 5em;
 }
 
 .subscribeBtn {
+    width: 7em;
+    padding: .25em .75em;
     font-weight: bold;
+    border-radius: .75em;
+    background-color: #50C2C7;
+    box-shadow: .05em .05em #1A170F;
 }
 
 .row {
@@ -92,6 +111,10 @@ footer {
     text-decoration: none;
 }
 
+.forwardSlash {
+    font-size: xx-large;
+}
+
 /* COLORS  */
 .toggleBtn,
 h1,
@@ -102,6 +125,7 @@ h2,
 }
 
 .toggleBtn:hover,
+.charColor,
 .subscribeBtn:hover,
 .footer-link:hover {
     color: #50C2C7;
