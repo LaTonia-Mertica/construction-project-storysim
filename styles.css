@@ -213,7 +213,49 @@ form {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1052px) {
+    h1 {
+        font-size: 6.25em;
+    }
+
+    .bodyProjectTitle {
+        font-size: .97em;
+    }
+}
+
+@media only screen and (max-width: 1028px) {
+    .bodyProjectTitle {
+        font-size: .95em;
+    }
+}
+
+@media only screen and (max-width: 1012px) {
+    h1 {
+        font-size: 6.15em;
+    }
+
+    p {
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    h1 {
+        font-size: 5.75em;
+    }
+}
+
+@media only screen and (max-width: 801px) {
+    h1 {
+        font-size: 4.75em;
+    }
+
+    p {
+        width: 57%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     body {
         font-size: 67%;
     }
