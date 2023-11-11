@@ -141,12 +141,24 @@ footer {
 
 .footer-link {
     text-decoration: none;
-    background-color: transparent;
-    border: none;
 }
 
 .forwardSlash {
     font-size: xx-large;
+}
+
+button#credit-mentor-btn,
+button#credit-mentee-btn {
+    width: 5em;
+    float: right;
+    margin-right: 2em;
+    padding: .15em .5em;
+    border-radius: .65em;
+    background-color: transparent;
+    border-style: solid;
+
+    border: none;
+    border-right: 0.125em solid #50C2C7;
 }
 
 .subpage {
@@ -155,6 +167,14 @@ footer {
 
 .active {
     display: block;
+}
+
+/* BACKGROUNDS */
+.footer-link,
+#credit-mentor-btn,
+#credit-mentee-btn {
+    background-color: transparent;
+    border: none;
 }
 
 /* COLORS  */
