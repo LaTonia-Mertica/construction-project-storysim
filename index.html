@@ -58,20 +58,40 @@
           <button type="submit" class="subscribeBtn"><span class="submitBtnText">SUBMIT</span></button>
         </form>
         <div class="row">
-          <div class="column"><a href="storysim-ex1/index.html"><img src="assets/axe.jpg" alt="text here"></a></div>
-          <div class="column"><a href="storysim-ex2/index.html"><img src="assets/review.jpg" alt="text here"></a></div>
-          <div class="column"><a href="storysim-ex3/index.html"><img src="assets/rig.jpg" alt="text here"></a></div>
+          <!-- EXAMPLES LINKED TO SUBPAGES -->
+          <div class="column"><button type="button" class="examples" onclick="showSubpage('storysim-ex1-page')"><img
+                src="assets/axe.jpg" alt="text here"></button>
+          </div>
+          <div class="column"><button type="button" class="examples" onclick="showSubpage('storysim-ex2-page')"><img
+                src="assets/review.jpg" alt="text here"></button></div>
+          <div class="column"><button type="button" class="examples" onclick="showSubpage('storysim-ex3-page')"><img
+                src="assets/rig.jpg" alt="text here"></button>
+          </div>
+          <!-- SUBPAGES FOR EXAMPLES -->
+          <div id="storysim-ex1-page" class="subpage">
+            <button type="button" id="storysim-ex1-btn" onclick="hideSubpage('storysim-ex1-page')">&lsaquo;&nbsp;
+              &frasl;&nbsp;&rsaquo;</button>
+          </div>
+          <div id="storysim-ex2-page" class="subpage">
+            <button type="button" id="storysim-ex2-btn" onclick="hideSubpage('storysim-ex2-page')">&lsaquo;&nbsp;
+              &frasl;&nbsp;&rsaquo;</button>
+          </div>
+          <div id="storysim-ex3-page" class="subpage">
+            <button type="button" id="storysim-ex3-btn" onclick="hideSubpage('storysim-ex3-page')">&lsaquo;&nbsp;
+              &frasl;&nbsp;&rsaquo;</button>
+          </div>
         </div>
       </section>
     </div>
   </div>
   <footer>
+    <!-- CREDITS LINKED TO SUBPAGES -->
     <button type="button" class="footer-link" onclick="showSubpage('credit-mentor-page')">CREDIT
       MENTOR</button>&nbsp;<span class="charColor forwardSlash">/</span>&nbsp;<button type="button" class="footer-link"
       onclick="showSubpage('credit-mentee-page')">CREDIT
       MENTEE</button>
   </footer>
-
+  <!-- SUBPAGES FOR CREDITS -->
   <div id="credit-mentor-page" class="subpage">
     <button type="button" id="credit-mentor-btn" onclick="hideSubpage('credit-mentor-page')">&lsaquo;&nbsp;
       &frasl;&nbsp;&rsaquo;</button>

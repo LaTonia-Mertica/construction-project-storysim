@@ -4,31 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: transparent;
-    /* add styles prn */
-}
-
-.grid-div {
-    background-color: transparent;
-    /* add styles prn */
-}
-
-.background-div {
-    background-color: transparent;
-    /* add styles prn */
-}
-
 .toggleBtn {
     color: #1A170F;
     margin-top: 1.25em;
     --fa-beat-fade-scale: 1.25;
     --fa-animation-duration: 3.7s;
-}
-
-section.title-description-links-credit {
-    background-color: transparent;
-    /* add styles prn */
 }
 
 h1 {
@@ -44,11 +24,6 @@ h2 {
     font-size: 2.25em;
 }
 
-.bodyProjectTitle {
-    background-color: transparent;
-    /* add styles prn */
-}
-
 p {
     width: 43%;
     text-align: justify;
@@ -56,13 +31,7 @@ p {
     font-weight: lighter;
 }
 
-form {
-    background-color: transparent;
-    /* add styles prn */
-}
-
 input#MERGE0 {
-    border: none;
     border-bottom: .05em dotted #1A170F;
 }
 
@@ -81,7 +50,6 @@ input#MERGE0 {
     padding: .25em .75em;
     font-weight: bold;
     border-radius: .75em;
-    background-color: transparent;
     border-style: solid;
 
     border-width: 0;
@@ -118,16 +86,6 @@ input#MERGE0 {
     margin: 0 auto;
 }
 
-.column {
-    background-color: transparent;
-    /* add styles prn */
-}
-
-a {
-    background-color: transparent;
-    /* add styles prn */
-}
-
 img {
     width: 50%;
     height: auto;
@@ -147,18 +105,19 @@ footer {
     font-size: xx-large;
 }
 
+button#storysim-ex1-btn,
+button#storysim-ex2-btn,
+button#storysim-ex3-btn,
 button#credit-mentor-btn,
 button#credit-mentee-btn {
     width: 5em;
     float: right;
     margin-right: 2em;
-    padding: .15em .5em;
-    border-radius: .65em;
-    background-color: transparent;
-    border-style: solid;
-
-    border: none;
+    border-top: none;
     border-right: 0.125em solid #50C2C7;
+    border-bottom: none;
+    border-left: 0.125em solid #50C2C7;
+    border-radius: .75em;
 }
 
 .subpage {
@@ -170,10 +129,28 @@ button#credit-mentee-btn {
 }
 
 /* BACKGROUNDS */
+body,
+.grid-div,
+.background-div,
+section.title-description-links-credit,
+.subscribeBtn,
+.columns,
+.examples,
 .footer-link,
+button#storysim-ex1-btn,
+button#storysim-ex2-btn,
+button#storysim-ex3-btn,
 #credit-mentor-btn,
-#credit-mentee-btn {
+#credit-mentee-btn,
+button#credit-mentor-btn,
+button#credit-mentee-btn {
     background-color: transparent;
+}
+
+/* BORDERS  */
+input#MERGE0,
+.examples,
+.footer-link {
     border: none;
 }
 
@@ -199,6 +176,9 @@ h2,
 }
 
 /* DISPLAYS  */
+#storysim-ex1-page:active,
+#storysim-ex2-page:active,
+#storysim-ex3-page:active,
 #credit-mentor-page:active,
 #credit-mentee-page:active {
     display: block;
