@@ -111,8 +111,7 @@ button#storysim-ex3-btn,
 button#credit-mentor-btn,
 button#credit-mentee-btn {
     width: 5em;
-    float: right;
-    margin-right: 2em;
+    margin: 0 0 1.45em 2em;
     border-top: none;
     border-right: 0.125em solid #50C2C7;
     border-bottom: none;
