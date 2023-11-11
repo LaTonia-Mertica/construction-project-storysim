@@ -5,15 +5,18 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: transparent;
+    /* add styles prn */
 }
 
 .grid-div {
-    background-color: #fff;
+    background-color: transparent;
+    /* add styles prn */
 }
 
 .background-div {
-    background-color: #fff;
+    background-color: transparent;
+    /* add styles prn */
 }
 
 .toggleBtn {
@@ -23,12 +26,9 @@ body {
     --fa-animation-duration: 3.7s;
 }
 
-.toggleBtn:hover {
-    background-color: transparent;
-}
-
 section.title-description-links-credit {
-    background-color: #fff;
+    background-color: transparent;
+    /* add styles prn */
 }
 
 h1 {
@@ -46,6 +46,7 @@ h2 {
 
 .bodyProjectTitle {
     background-color: transparent;
+    /* add styles prn */
 }
 
 p {
@@ -57,6 +58,7 @@ p {
 
 form {
     background-color: transparent;
+    /* add styles prn */
 }
 
 input#MERGE0 {
@@ -75,12 +77,39 @@ input#MERGE0 {
 }
 
 .subscribeBtn {
-    width: 7em;
+    width: 11em;
     padding: .25em .75em;
     font-weight: bold;
     border-radius: .75em;
-    background-color: #50C2C7;
-    box-shadow: .05em .05em #1A170F;
+    background-color: transparent;
+    border-style: solid;
+
+    border-width: 0;
+    border-right: 0.125em solid #50C2C7;
+    border-left: 0.125em solid #50C2C7;
+    box-shadow: .05em .05em #1A170F, .1em .1em .1em #50C2C7;
+}
+
+.subscribeBtn:after {
+    content: '>>';
+    opacity: 0;
+    top: 0.875em;
+    right: -1.25em;
+    transition: .5s;
+}
+
+.subscribeBtn:hover {
+    padding-right: 1.5em;
+    padding-left: 0.5em;
+}
+
+.subscribeBtn:hover:after {
+    opacity: 1;
+    right: 0.625;
+}
+
+.submitBtnText {
+    margin-right: .45em;
 }
 
 .row {
@@ -91,10 +120,12 @@ input#MERGE0 {
 
 .column {
     background-color: transparent;
+    /* add styles prn */
 }
 
 a {
     background-color: transparent;
+    /* add styles prn */
 }
 
 img {
@@ -103,16 +134,27 @@ img {
 }
 
 footer {
-    float: right;
+    display: block;
+    text-align: right;
     margin: 3.75em 1.15em;
 }
 
 .footer-link {
     text-decoration: none;
+    background-color: transparent;
+    border: none;
 }
 
 .forwardSlash {
     font-size: xx-large;
+}
+
+.subpage {
+    display: none;
+}
+
+.active {
+    display: block;
 }
 
 /* COLORS  */
@@ -126,9 +168,20 @@ h2,
 
 .toggleBtn:hover,
 .charColor,
-.subscribeBtn:hover,
 .footer-link:hover {
     color: #50C2C7;
+}
+
+/* CURSORS  */
+.toggleBtn:hover,
+.subscribeBtn:hover {
+    cursor: pointer;
+}
+
+/* DISPLAYS  */
+#credit-mentor-page:active,
+#credit-mentee-page:active {
+    display: block;
 }
 
 /* FONT FAMILIES */
@@ -157,4 +210,15 @@ h2 {
 p,
 form {
     margin-left: 3em;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 67%;
+    }
+
+    h1 {
+        font-size: 4.25em;
+    }
 }

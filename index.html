@@ -55,7 +55,7 @@
           <label for="MERGE0" class="subscribeText">SUBSCRIBE:&nbsp;</label>
           <input type="email" name="MERGE0" id="MERGE0" size="25" value=""
             placeholder="enter email address">&nbsp;&nbsp;
-          <button type="submit" class="subscribeBtn">SUBMIT</button>
+          <button type="submit" class="subscribeBtn"><span class="submitBtnText">SUBMIT</span></button>
         </form>
         <div class="row">
           <div class="column"><a href="storysim-ex1/index.html"><img src="assets/axe.jpg" alt="text here"></a></div>
@@ -65,9 +65,19 @@
       </section>
     </div>
   </div>
-  <footer><a href="credit cw/index.html" class="footer-link">CREDIT MENTOR</a>&nbsp;<span
-      class="charColor forwardSlash">/</span>&nbsp;<a href="credit lmsw/index.html" class="footer-link">CREDIT
-      MENTEE</a></footer>
+  <footer>
+    <button type="button" class="footer-link" onclick="showSubpage('credit-mentor-page')">CREDIT
+      MENTOR</button>&nbsp;<span class="charColor forwardSlash">/</span>&nbsp;<button type="button" class="footer-link"
+      onclick="showSubpage('credit-mentee-page')">CREDIT
+      MENTEE</button>
+  </footer>
+
+  <div id="credit-mentor-page" class="subpage">
+    <button type="button" id="credit-mentor-btn" onclick="hideSubpage('credit-mentor-page')">CLOSE</button>
+  </div>
+  <div id="credit-mentee-page" class="subpage">
+    <button type="button" id="credit-mentee-btn" onclick="hideSubpage('credit-mentee-page')">CLOSE</button>
+  </div>
 </body>
 
 </html>
