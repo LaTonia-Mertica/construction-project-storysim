@@ -53,7 +53,9 @@ input#MERGE0 {
     border-style: solid;
 
     border-width: 0;
+    border-top: 0.125em solid #1A170F;
     border-right: 0.125em solid #50C2C7;
+    border-bottom: 0.125em solid #1A170F;
     border-left: 0.125em solid #50C2C7;
     box-shadow: .05em .05em #1A170F, .1em .1em .1em #50C2C7;
 }
@@ -94,7 +96,7 @@ img {
 footer {
     display: block;
     text-align: right;
-    margin: 3.75em 1.15em;
+    margin-top: 3.75em;
 }
 
 .footer-link {
@@ -111,12 +113,31 @@ button#storysim-ex3-btn,
 button#credit-mentor-btn,
 button#credit-mentee-btn {
     width: 5em;
-    margin: 0 0 1.45em 2em;
+    margin-bottom: 1.45em;
+    margin-left: 2em;
     border-top: none;
     border-right: 0.125em solid #50C2C7;
     border-bottom: none;
     border-left: 0.125em solid #50C2C7;
     border-radius: .75em;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2)
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
 }
 
 .subpage {
@@ -125,6 +146,10 @@ button#credit-mentee-btn {
 
 .active {
     display: block;
+}
+
+video {
+    margin-bottom: 2.25em;
 }
 
 /* BACKGROUNDS */
