@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="styles-toggle-theme.css">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
 
   <script src="https://kit.fontawesome.com/162036c593.js" crossorigin="anonymous"></script>
 
@@ -21,13 +22,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
 
-  <script type="text/javascript" src="index.js"></script>
+  <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+  <script type="text/javascript" src="index.js" defer></script>
   <script type="text/javascript" src="toggle-theme.js"></script>
 </head>
 
 <body>
   <div class="grid-div">
     <div class="background-div">
+      <div id="map"></div>
       <i onclick="toggleTheme()" title="trash current theme"
         class="toggleBtn fa-sharp fa-solid fa-dumpster fa-2xl fa-beat"></i>
 
@@ -89,26 +92,32 @@
   </div>
   <footer>
     <!-- CREDITS LINKED TO SUBPAGES -->
-    <button type="button" class="footer-link" onclick="showSubpage('credit-mentor-page')">CREDIT
-      MENTOR</button>&nbsp;<span class="charColor forwardSlash">/</span>&nbsp;<button type="button" class="footer-link"
-      onclick="showSubpage('credit-mentee-page')">CREDIT
-      MENTEE</button>
+    <button type="button" class="footer-link" title="credit mentor video"
+      onclick="showSubpage('credit-mentor-page')">CREDIT
+      MENTOR</button><sup> <a href="assets/chris-willard.pdf" title="click to download chris contact pdf"
+        rel="noreferrer noopener" download target="_blank" class="chrisPdf">&#9742;</a></sup>
+    &nbsp;<span class="charColor forwardSlash">/</span>&nbsp;<button type="button" class="footer-link"
+      title="credit mentee video" onclick="showSubpage('credit-mentee-page')">CREDIT
+      MENTEE</button><sup class="lmSuperscript"><a href="assets/latonia-mertica.pdf"
+        title="click to download la'tonia mertica contact pdf" rel="noreferrer noopener" download target="_blank"
+        class="lmPdf">&#9742;</a></sup>
   </footer>
   <!-- SUBPAGES FOR CREDITS -->
   <div id="credit-mentor-page" class="subpage">
-    <button type="button" id="credit-mentor-btn" class="pulse" onclick="hideSubpage('credit-mentor-page')"
-      title="close mentor credit video">&lsaquo;&nbsp;
-      &frasl;&nbsp;&rsaquo;</button>
-    <video width="100%" height="auto" autoplay controls loop mute>
-      <source src="assets/latonia-mertica.mp4" type="video/mp4">
+    <button type="button" id="credit-mentor-btn" class="pulse" title="close mentor credit video"
+      onclick="hideSubpage('credit-mentor-page')">&lsaquo;&nbsp;
+      &frasl;&nbsp;&rsaquo;
+    </button>
+    <video width="37%" height="25%" autoplay controls loop poster="assets/poster-cw.png" class="video-cw">
+      <source src="assets/chris-willard.mp4" type="video/mp4">
       Apologies - Your Browser Does Not Support Video Tag
     </video>
   </div>
   <div id="credit-mentee-page" class="subpage">
-    <button type="button" id="credit-mentee-btn" class="pulse" onclick="hideSubpage('credit-mentee-page')"
-      title="close mentee credit video">&lsaquo;&nbsp;
+    <button type="button" id="credit-mentee-btn" class="pulse" title="close mentee credit video"
+      onclick="hideSubpage('credit-mentee-page')">&lsaquo;&nbsp;
       &frasl;&nbsp;&rsaquo;</button>
-    <video width="100%" height="auto" autoplay controls loop mute>
+    <video width="37%" height="25%" autoplay controls loop poster="assets/poster-lmsw.png" class="video-lmsw">
       <source src="assets/latonia-mertica.mp4" type="video/mp4">
       Apologies - Your Browser Does Not Support Video Tag
     </video>

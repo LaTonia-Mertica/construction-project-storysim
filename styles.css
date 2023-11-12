@@ -11,6 +11,19 @@
     --fa-animation-duration: 3.7s;
 }
 
+#map {
+    position: absolute;
+    top: 3em;
+    left: 7em;
+    width: 50%;
+    height: 50%;
+}
+
+div.maplibregl-ctrl-attrib-inner,
+.maplibregl-compact-show {
+    display: none;
+}
+
 h1 {
     font-size: 7em;
     margin: 0 9%;
@@ -94,9 +107,12 @@ img {
 }
 
 footer {
+    width: 101%;
+    padding-right: 2.15em;
     display: block;
     text-align: right;
     margin-top: 3.75em;
+    background-color: #FCF0CC;
 }
 
 .footer-link {
@@ -114,7 +130,6 @@ button#credit-mentor-btn,
 button#credit-mentee-btn {
     width: 5em;
     margin-bottom: 1.45em;
-    margin-left: 2em;
     border-top: none;
     border-right: 0.125em solid #50C2C7;
     border-bottom: none;
@@ -137,6 +152,7 @@ button#credit-mentee-btn {
 }
 
 .pulse {
+    display: block;
     animation: pulse 2s infinite;
 }
 
@@ -148,8 +164,31 @@ button#credit-mentee-btn {
     display: block;
 }
 
+#credit-mentor-page {
+    margin-top: 2.15em;
+}
+
 video {
     margin-bottom: 2.25em;
+    border-radius: .45em;
+}
+
+.video-cw,
+#credit-mentor-btn {
+    float: left;
+    margin-left: 2.45em;
+}
+
+.video-lmsw,
+#credit-mentee-btn {
+    float: right;
+    margin-right: 2.45em;
+}
+
+a {
+    color: #50C2C7;
+    text-decoration: none;
+    font-size: xx-small;
 }
 
 /* BACKGROUNDS */
@@ -237,6 +276,15 @@ form {
 }
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 1064px) {
+
+    video,
+    button#credit-mentor-btn,
+    button#credit-mentee-btn {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1052px) {
     h1 {
         font-size: 6.25em;
