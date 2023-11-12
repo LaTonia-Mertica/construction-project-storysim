@@ -123,9 +123,9 @@ footer {
     font-size: xx-large;
 }
 
-button#storysim-ex1-btn,
-button#storysim-ex2-btn,
-button#storysim-ex3-btn,
+button#storysim-construction-btn,
+button#storysim-pilot-btn,
+button#storysim-solopreneur-btn,
 button#credit-mentor-btn,
 button#credit-mentee-btn {
     width: 5em;
@@ -202,9 +202,9 @@ section.title-description-links-credit,
 .columns,
 .examples,
 .footer-link,
-button#storysim-ex1-btn,
-button#storysim-ex2-btn,
-button#storysim-ex3-btn,
+button#storysim-construction-btn,
+button#storysim-pilot-btn,
+button#storysim-solopreneur-btn,
 #credit-mentor-btn,
 #credit-mentee-btn,
 button#credit-mentor-btn,
@@ -241,9 +241,9 @@ h2,
 }
 
 /* DISPLAYS  */
-#storysim-ex1-page:active,
-#storysim-ex2-page:active,
-#storysim-ex3-page:active,
+#construction:active,
+#pilot:active,
+#solopreneur:active,
 #credit-mentor-page:active,
 #credit-mentee-page:active {
     display: block;
