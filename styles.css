@@ -200,7 +200,7 @@ body,
 section.title-description-links-credit,
 .subscribeBtn,
 .columns,
-.examples,
+.gateways,
 .footer-link,
 button#storysim-construction-btn,
 button#storysim-pilot-btn,
@@ -214,7 +214,7 @@ button#credit-mentee-btn {
 
 /* BORDERS  */
 input#MERGE0,
-.examples,
+.gateways,
 .footer-link {
     border: none;
 }
@@ -255,6 +255,7 @@ h2,
 .bodyProjectTitle,
 .subscribeText,
 .subscribeBtn,
+.gateways,
 .footer-link {
     font-family: Orbitron, sans-serif;
 }
