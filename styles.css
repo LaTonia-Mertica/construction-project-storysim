@@ -169,6 +169,8 @@ button#credit-mentee-btn {
 }
 
 video {
+    width: 37%;
+    height: 25%;
     margin-bottom: 2.25em;
     border-radius: .45em;
 }
