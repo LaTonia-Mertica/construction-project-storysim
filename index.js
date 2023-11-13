@@ -1,6 +1,5 @@
 /*
 MAPPING
-
 COPYRIGHT CARTO, COPYRIGHT OpenStreetMap contributors
 */
 new maplibregl.Map({
