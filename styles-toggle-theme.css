@@ -1,4 +1,7 @@
 .toggle-theme {
-    background-color: #ccc
-        /* add styles here  */
+    background-color: #1A170F;
+}
+
+body {
+    color: #FFF;
 }
