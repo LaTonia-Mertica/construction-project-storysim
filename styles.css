@@ -29,7 +29,7 @@ div.maplibregl-ctrl-attrib-inner,
 h1 {
     font-size: 7em;
     margin: 0 9%;
-    margin-top: 1.34em;
+    margin-top: 1.5em;
     line-height: 1em;
 }
 
@@ -108,8 +108,7 @@ input {
     width: 33em;
     margin: -27em 0;
     padding: 1.05em;
-    border-radius: 1.65em;
-    background-color: #fff7de;
+    box-shadow: .15em .15em .15em .15em #1A170F;
 }
 
 .description-survey-row:after {
@@ -129,6 +128,8 @@ input[type="checkbox"] {
     padding: .25em .65em;
     background-color: #1A170F;
     border-radius: .45em;
+    box-shadow: 0 0 0 1px #50C2C7 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 0 #1A170F, 0 0 0 1px rgba(0, 0, 0, 0.4), 0 0px 8px 1px rgba(0, 0, 0, 0.5);
+
 }
 
 textarea {
@@ -151,12 +152,18 @@ textarea {
 .gateway-row {
     display: flex;
     justify-content: center;
-    margin: 7.65em 0 1.45em 0;
+    margin: 3.65em -.7em -3.5em 0;
+    background-color: #c8c4bd;
+    padding: 1.25em 0 2em 0;
 }
 
 img {
-    width: 67%;
+    width: 87%;
     height: auto;
+}
+
+.gateways {
+    font-size: 1.65em;
 }
 
 footer {
