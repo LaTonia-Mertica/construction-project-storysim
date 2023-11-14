@@ -58,6 +58,8 @@ why not. seriously, who doesn't have a chance to code or develop a website and a
 
 ##### PHASE I
 
+- wire survey
+- add 3d buildings to map
 - incorporate localStorage
 
 ##### PHASE II
@@ -69,6 +71,9 @@ why not. seriously, who doesn't have a chance to code or develop a website and a
 
 ##### PHASE III
 
+- soup up map with extra features, including data points as available
+- add map extras to localStorage
+- code breakdown from html file into separate files by focus/function and imported back into html file
 - edit to production level
 
 ##### PHASE IV
