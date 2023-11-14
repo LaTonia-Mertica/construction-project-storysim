@@ -164,6 +164,19 @@ img {
 
 .gateways {
     font-size: 1.65em;
+    text-shadow: .1em .0125em #FFF;
+}
+
+.gateways.construction:hover {
+    color: #22E4AC;
+}
+
+.gateways.pilot:hover {
+    color: #4ADEDE;
+}
+
+.gateways.solopreneur:hover {
+    color: orangered;
 }
 
 footer {
