@@ -12,9 +12,8 @@ body {
 }
 
 i.toggleBtn.fa-dumpster {
-    color: #fff;
-    margin-top: 2.05em;
-    margin-left: 2.05em;
+    color: #1A170F;
+    margin-top: 1.25em;
 }
 
 .toggleBtn {
@@ -23,8 +22,7 @@ i.toggleBtn.fa-dumpster {
 }
 
 #map {
-    /* position: fixed; */
-    width: 100vw;
+    width: 101vw;
     height: 50vh;
 }
 
@@ -33,15 +31,23 @@ div.maplibregl-ctrl-attrib-inner,
     display: none;
 }
 
+.description-survey-row {
+    margin-top: -21em;
+}
+
 h1 {
     font-size: 7em;
-    margin: 0 9%;
-    margin-top: 1.5em;
     line-height: 1em;
+    margin-left: .35em;
 }
 
 .charColor {
     text-shadow: .05em .05em .05em #1A170F;
+}
+
+.description-survey-inner-row {
+    padding: 1.25em 0;
+    background-color: #FFF;
 }
 
 h2 {
@@ -79,6 +85,7 @@ input {
     font-weight: bold;
     border-radius: .75em;
     border-style: solid;
+    background-color: #FFF;
 
     border-width: 0;
     border-top: 0.125em solid #1A170F;
@@ -110,12 +117,16 @@ input {
     margin-right: .45em;
 }
 
+div.column.survey-column {
+    margin-top: -27.5em;
+}
+
 .survey-column {
     float: right;
     width: 33em;
-    margin: -27em 0;
+    margin: -27em 1.65em 0 0;
     padding: 1.05em;
-    box-shadow: .15em .15em .15em .15em #1A170F;
+    box-shadow: 0 0 .15em .15em #50C2C7;
 }
 
 .description-survey-row:after {
@@ -159,8 +170,8 @@ textarea {
 .gateway-row {
     display: flex;
     justify-content: center;
-    margin: 3.65em -.7em -3.5em 0;
-    background-color: #c8c4bd;
+    margin: 3.65em -.7em -2.65em 0;
+    background-color: #1A170F;
     padding: 1.25em 0 2em 0;
 }
 
@@ -171,7 +182,7 @@ img {
 
 .gateways {
     font-size: 1.65em;
-    text-shadow: .1em .0125em #FFF;
+    color: #FFF;
 }
 
 .gateways.construction:hover {
@@ -248,23 +259,13 @@ button#credit-mentee-btn {
     margin-top: 2.15em;
 }
 
-video {
-    width: 37%;
-    height: 25%;
-    margin-bottom: 2.25em;
-    border-radius: .45em;
-}
-
-.video-cw,
-#credit-mentor-btn {
-    float: left;
-    margin-left: 2.45em;
-}
-
-.video-lmsw,
+video,
+#credit-mentor-btn,
 #credit-mentee-btn {
-    float: right;
-    margin-right: 2.45em;
+    width: 67%;
+    height: 25%;
+    margin-left: 3em;
+    margin-bottom: 2.25em;
 }
 
 a {
@@ -274,12 +275,6 @@ a {
 }
 
 /* BACKGROUNDS */
-body,
-.grid-div,
-.background-div,
-section.title-description-links-credit,
-.subscribeBtn,
-.columns,
 .gateways,
 .footer-link,
 button#storysim-construction-btn,
