@@ -29,7 +29,8 @@ div.maplibregl-ctrl-attrib-inner,
 h1 {
     font-size: 7em;
     margin: 0 9%;
-    margin-top: 3em;
+    margin-top: 1.34em;
+    line-height: 1em;
 }
 
 .charColor {
@@ -102,14 +103,59 @@ input {
     margin-right: .45em;
 }
 
-.row {
+.survey-column {
+    float: right;
+    width: 33em;
+    margin: -27em 0;
+    padding: 1.05em;
+    border-radius: 1.65em;
+    background-color: #fff7de;
+}
+
+.description-survey-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #1A170F;
+}
+
+#industry,
+#survey-btn {
+    color: #FFF;
+    padding: .25em .65em;
+    background-color: #1A170F;
+    border-radius: .45em;
+}
+
+textarea {
+    width: 47%;
+    border: none;
+    border-left: .015em solid #1A170F;
+}
+
+#comment,
+#survey-btn {
+    margin-top: .45em;
+}
+
+#industry:hover,
+#survey-btn:hover {
+    color: #1A170F;
+    background-color: #50C2C7;
+}
+
+.gateway-row {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: 7.65em 0 1.45em 0;
 }
 
 img {
-    width: 50%;
+    width: 67%;
     height: auto;
 }
 
@@ -221,6 +267,10 @@ button#credit-mentee-btn {
 
 /* BORDERS  */
 input#MERGE0,
+#name,
+#email,
+#industry,
+#survey-btn,
 .gateways,
 .footer-link {
     border: none;
@@ -262,6 +312,11 @@ h2,
 .bodyProjectTitle,
 .subscribeText,
 .subscribeBtn,
+#label-name,
+#label-email,
+#label-industry,
+span#comment,
+#survey-btn,
 .gateways,
 .footer-link {
     font-family: Orbitron, sans-serif;

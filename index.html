@@ -34,63 +34,139 @@
       <i onclick="toggleTheme()" title="trash current theme"
         class="toggleBtn fa-sharp fa-solid fa-dumpster fa-2xl fa-beat "></i>
 
-      <section class="title-description-links-credit">
-        <h1>CON<span class="charColor">STR</span>UCTION <span class="charColor">PRO</span>JECT STORY<span
-            class="charColor">SIM</span></h1>
-        <h2>DESCRIPTION</h2>
-        <p><span class="bodyProjectTitle">CONSTRUCTION PROJECT STORYSIM</span>&nbsp;is an innovative solution that uses
-          physical addresses and aerial footage to harness geospatial and mapping technology. CPVc seamlessly generates
-          immersive 3D renderings enriched with precise data, including exact dimensions, square footage, terrain
-          details, and other critical information crucial for precise cost estimation, bid and proposal specifications,
-          and building mutual understanding with clients. We’re committed to continual research and skill development -
-          positioning us as pioneers of industry innovation.
-          <br>
-          <br>
-          ... we equip
-          users with a fast, free, reliable resource to accurately assess project sites, estimate project costs,
-          and provide realistic project visualizations through a visually stunning interface their clients can
-          understand ...
-        </p>
-        <form action="https://gmail.us5.list-manage.com/subscribe/post" method="POST" class="subscribeForm"
-          title="subscribe for monthly insight from 'Construction Project Storyteller'">
-          <input type="hidden" name="u" value="12d8e8938404fcff41008b28e">
-          <input type="hidden" name="id" value="ccefcfb5b9">
-          <label for="MERGE0" class="subscribeText">SUBSCRIBE:&nbsp;</label>
-          <input type="email" name="MERGE0" id="MERGE0" size="25" value=""
-            placeholder="enter email address">&nbsp;&nbsp;
-          <button type="submit" class="subscribeBtn" id="subscribeBtn"><span
-              class="submitBtnText">SUBMIT</span></button>
-        </form>
-        <div class="row">
-          <!-- GATEWAYS LINKED TO SUBPAGES -->
-          <!-- REPLACE SHOWSUBPAGE PARAMETER STRING javascript:; IN FIRST CODE BLOCK BELOW WITH STRING PARAMETER construction THEN IN SECOND CODE BLOCK WITH pilot THEN IN THIRD CODE BLOCK WITH solopreneur -->
-          <div class="column"><button type="button" class="gateways" title="content for construction users"
-              onclick="showSubpage('javascript:;')"><img src="assets/construction.png"
-                alt="Gateway for construction users">CONSTRUCTION</button>
-          </div>
-          <div class="column"><button type="button" class="gateways" title="content for pilot users"
-              onclick="showSubpage('javascript:;')"><img src="assets/pilot.png"
-                alt="Gateway for pilot users">PILOT</button></div>
-          <div class="column"><button type="button" class="gateways" title="content for solopreneur users"
-              onclick="showSubpage('javascript:;')"><img src="assets/solopreneur.png"
-                alt="Gateway for soloprenuer users">SOLOPRENEUR</button>
-          </div>
-          <!-- SUBPAGES FOR USER GATEWAYS -->
-          <div id="construction" class="subpage">
-            <button type="button" id="storysim-construction-btn" class="pulse"
-              onclick="hideSubpage('construction')">&lsaquo;&nbsp;
-              &frasl;&nbsp;&rsaquo;</button>
-          </div>
-          <div id="pilot" class="subpage">
-            <button type="button" id="storysim-pilot-btn" class="pulse" onclick="hideSubpage('pilot')">&lsaquo;&nbsp;
-              &frasl;&nbsp;&rsaquo;</button>
-          </div>
-          <div id="solopreneur" class="subpage">
-            <button type="button" id="storysim-solopreneur-btn" class="pulse"
-              onclick="hideSubpage('solopreneur')">&lsaquo;&nbsp;
-              &frasl;&nbsp;&rsaquo;</button>
-          </div>
+      <div class="row description-survey-row">
+        <div class="column">
+          <section class="title-description-links-credit">
+            <h1>CON<span class="charColor">STR</span>UCTION <span class="charColor">PRO</span>JECT STORY<span
+                class="charColor">SIM</span></h1>
+            <h2>DESCRIPTION</h2>
+            <p><span class="bodyProjectTitle">CONSTRUCTION PROJECT STORYSIM</span>&nbsp;is an innovative solution that
+              uses
+              physical addresses and aerial footage to harness geospatial and mapping technology. CPVc seamlessly
+              generates
+              immersive 3D renderings enriched with precise data, including exact dimensions, square footage, terrain
+              details, and other critical information crucial for precise cost estimation, bid and proposal
+              specifications,
+              and building mutual understanding with clients. We’re committed to continual research and skill
+              development
+              -
+              positioning us as pioneers of industry innovation.
+              <br>
+              <br>
+              ... we equip
+              users with a fast, free, reliable resource to accurately assess project sites, estimate project costs,
+              and provide realistic project visualizations through a visually stunning interface their clients can
+              understand ...
+            </p>
+            <form action="https://gmail.us5.list-manage.com/subscribe/post" method="POST" class="subscribeForm"
+              title="subscribe for monthly insight from 'Construction Project Storyteller'">
+              <input type="hidden" name="u" value="12d8e8938404fcff41008b28e">
+              <input type="hidden" name="id" value="ccefcfb5b9">
+              <label for="MERGE0" class="subscribeText">SUBSCRIBE:&nbsp;</label>
+              <input type="email" name="MERGE0" id="MERGE0" size="25" value=""
+                placeholder="enter email address">&nbsp;&nbsp;
+              <button type="submit" class="subscribeBtn" id="subscribeBtn"><span
+                  class="submitBtnText">SUBMIT</span></button>
+            </form>
         </div>
+
+        <div class="column survey-column">
+          <form action="" id="user-form">
+            <div class="form-ctrl">
+              <label for="name" id="label-name">NAME:&nbsp;</label>
+              <input type="text" name="name" id="name" placeholder="enter name">
+            </div>
+
+            <div class="form-ctrl">
+              <label for="email" id="label-email">EMAIL:&nbsp;</label>
+              <input type="email" id="email" placeholder="enter email">
+              <br>
+              <br>
+              <div class="form-ctrl">
+                <label for="industry" id="label-industry">YOU ARE BEST DESCRIBED AS</label>&nbsp;&nbsp;
+
+                <select name="industry" id="industry">
+                  <option value="construction">Construction</option>
+                  <option value="pilot">Pilot</option>
+                  <option value="solopreneur">Solopreneur</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <br>
+              <br>
+              <div class="form-ctrl">
+                <label for="survey">Do you designate budget funds for multimedia
+                  solutions?</label>
+                <br>
+                <label for="survey-1">
+                  <input type="radio" id="survey-1" name="survey">Yes
+                </label>
+                <label for="survey-2">
+                  <input type="radio" id="survey-2" name="survey">No
+                </label>
+                <label for="survey-2">
+                  <input type="radio" id="survey-3" name="survey">Not Yet
+                </label>
+              </div>
+              <br>
+              <br>
+              <div class="form-ctrl">
+                <label for="services">Services you provide
+                  <small>
+                    (select all that apply)
+                  </small>
+                  <br>
+                </label>
+
+                <label for="input-1"><input type="checkbox" name="input">architecture</label><br>
+                <label for="input-2"><input type="checkbox" name="input">construction</label><br>
+                <label for="input-3"><input type="checkbox" name="input">drone/uas</label><br>
+                <label for="input-4"><input type="checkbox" name="input">estimation</label><br>
+                <label for="input-5"><input type="checkbox" name="input">real estate</label>
+              </div>
+              <br>
+              <br>
+              <div class="form-ctrl">
+                <label for="comment"><span id="comment">Share Your Thoughts</span></label>
+                <br>
+                <textarea name="comment" id="comment" placeholder="&nbsp;enter comment here"></textarea>
+              </div>
+
+              <button type="submit" value="submit" id="survey-btn">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row gateway-row">
+        <!-- GATEWAYS LINKED TO SUBPAGES -->
+        <!-- REPLACE SHOWSUBPAGE PARAMETER STRING javascript:; IN FIRST CODE BLOCK BELOW WITH STRING PARAMETER construction THEN IN SECOND CODE BLOCK WITH pilot THEN IN THIRD CODE BLOCK WITH solopreneur -->
+        <div class="column"><button type="button" class="gateways" title="content for construction users"
+            onclick="showSubpage('javascript:;')"><img src="assets/construction.png"
+              alt="Gateway for construction users"><br>CONSTRUCTION</button>
+        </div>
+        <div class="column"><button type="button" class="gateways" title="content for pilot users"
+            onclick="showSubpage('javascript:;')"><img src="assets/pilot.png" alt="Gateway for pilot users"><br>PILOT
+            (DRONE)</button></div>
+        <div class="column"><button type="button" class="gateways" title="content for solopreneur users"
+            onclick="showSubpage('javascript:;')"><img src="assets/solopreneur.png"
+              alt="Gateway for soloprenuer users"><br>SOLOPRENEUR</button>
+        </div>
+        <!-- SUBPAGES FOR USER GATEWAYS -->
+        <div id="construction" class="subpage">
+          <button type="button" id="storysim-construction-btn" class="pulse"
+            onclick="hideSubpage('construction')">&lsaquo;&nbsp;
+            &frasl;&nbsp;&rsaquo;</button>
+        </div>
+        <div id="pilot" class="subpage">
+          <button type="button" id="storysim-pilot-btn" class="pulse" onclick="hideSubpage('pilot')">&lsaquo;&nbsp;
+            &frasl;&nbsp;&rsaquo;</button>
+        </div>
+        <div id="solopreneur" class="subpage">
+          <button type="button" id="storysim-solopreneur-btn" class="pulse"
+            onclick="hideSubpage('solopreneur')">&lsaquo;&nbsp;
+            &frasl;&nbsp;&rsaquo;</button>
+        </div>
+      </div>
       </section>
     </div>
   </div>
