@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background-size: 15px 15px;
+    background-image:
+        linear-gradient(to right, #C8C4BD 1px, transparent 1px),
+        linear-gradient(to bottom, #C8C4BD 1px, transparent 1px);
+}
+
 i.toggleBtn.fa-dumpster {
     color: #fff;
     margin-top: 2.05em;
@@ -16,7 +23,7 @@ i.toggleBtn.fa-dumpster {
 }
 
 #map {
-    position: fixed;
+    /* position: fixed; */
     width: 100vw;
     height: 50vh;
 }
