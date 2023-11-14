@@ -18,8 +18,12 @@ a _passion project_ conceptualizing project-based learning activities through wh
 **WHEN:**<br>
 mentees seldom if ever sleep while materializing their passion project. we are often flush with ideas. startled awake with _try this debug_ and _fine tune that_ thoughts. naively convincing and unconvincing then re-convincing ourselves we can do much much more than is sane on the allotted time table. mentors are zealously lulled along, anchoring the journey in encouragement, expertise, and sensibility...
 
+... in addition, of course, to the 8-week program that involved a commitment of 2-hour synchronous sessions twice a week, office hours as needed with the program instructor and/or other ew educator, class work and independent study of a minimum of 12 hours a week, and peer meets as available
+
 **WHERE:**<br>
 for me, this cohort, given the weather and available resources - my car, my favorite public library, ...and in my dreams where my code ceaselessly executes in vivid error-free session after session
+
+... logistically, evenings via Google Meet
 
 **HOW:**<br>
 [&#10003;]&emsp;CAMARADERIE <br>
@@ -27,6 +31,8 @@ for me, this cohort, given the weather and available resources - my car, my favo
 [&#10003;]&emsp;[GITHUB](https://github.com/LaTonia-Mertica/construction-project-storysim/) <br>
 [&#10003;]&emsp;LOOM <br>
 [&#10003;]&emsp;MAC <br>
+[&#10003;]&emsp;MAILCHIMP <br>
+[&#10003;]&emsp;MAP LIBRE GL <br>
 [&#10003;]&emsp;MDN WEB DOCS <br>
 [&#10003;]&emsp;NABC <br>
 [&#10003;]&emsp;PREMIERE PRO <br>
@@ -50,8 +56,22 @@ why not. seriously, who doesn't have a chance to code or develop a website and a
 
 **NEXT STEPS:**
 
+##### PHASE I
+
+- incorporate localStorage
+
+##### PHASE II
+
 - rest for a bit
-- fine tune mvp
-- update trello
 - outline next sprint
-- schedule to start
+- schedule project time
+- toss confetti re progress
+
+##### PHASE III
+
+- edit to production level
+
+##### PHASE IV
+
+- deploy (production-level)
+- containerize (docker)
