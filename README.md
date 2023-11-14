@@ -32,7 +32,7 @@ for me, this cohort, given the weather and available resources - my car, my favo
 [&#10003;]&emsp;LOOM <br>
 [&#10003;]&emsp;MAC <br>
 [&#10003;]&emsp;MAILCHIMP <br>
-[&#10003;]&emsp;MAP LIBRE GL <br>
+[&#10003;]&emsp;[MAP LIBRE GL](https://maplibre.org/) <br>
 [&#10003;]&emsp;MDN WEB DOCS <br>
 [&#10003;]&emsp;NABC <br>
 [&#10003;]&emsp;PREMIERE PRO <br>
@@ -75,3 +75,13 @@ why not. seriously, who doesn't have a chance to code or develop a website and a
 
 - deploy (production-level)
 - containerize (docker)
+
+<br>
+
+**RESOURCES**
+
+###### [- grid css canvas](https://stackoverflow.com/questions/3540194/how-to-make-a-grid-like-graph-paper-grid-with-just-css)
+
+###### [- carto docs](https://docs.carto.com/carto-for-developers/carto-for-deck.gl/reference#base-maps-styles)
+
+###### [-map libre gl](https://maplibre.org/maplibre-gl-js/docs/API/classes/maplibregl.Map/#setstyle)
