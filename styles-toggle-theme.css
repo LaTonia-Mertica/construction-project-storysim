@@ -1,3 +1,19 @@
-/* .toggle-theme {
+.toggle-theme {
     background-color: #1A170F;
-} */
+}
+
+.toggle-theme input::placeholder {
+    color: #C8C4BD;
+}
+
+/*
+
+ document.body.style.backgroundColor = "#1A170F";
+  document.body.querySelector("i.toggleBtn.fa-dumpster").style.color =
+    " #1A170F";
+  document.body.style.color = "#FFF";
+  document.body.querySelector("h1").style.color = "#EEE5D8";
+  document.body.querySelector("span").style.textShadow = ".025em 0 0 #FFF";
+  document.body.querySelector("button").style.backgroundColor = "#FFF";
+  
+*/
