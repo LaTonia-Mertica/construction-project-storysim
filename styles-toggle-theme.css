@@ -1,19 +1,46 @@
 .toggle-theme {
-    background-color: #1A170F;
+  background-color: #1A170F;
+}
+
+.toggle-theme i.toggleBtn.fa-dumpster {
+  color: #FFF;
+}
+
+.toggle-theme h1,
+.toggle-theme h2,
+.toggle-theme p,
+.toggle-theme form,
+.toggle-theme .submitBtnText {
+  color: #FFF;
+}
+
+.toggle-theme span {
+  text-shadow: .065em 0 0 #1A170F;
 }
 
 .toggle-theme input::placeholder {
-    color: #C8C4BD;
+  color: #C8C4BD;
 }
 
-/*
+.toggle-theme button.submitBtn {
+  background-color: #1A170F;
+}
 
- document.body.style.backgroundColor = "#1A170F";
-  document.body.querySelector("i.toggleBtn.fa-dumpster").style.color =
-    " #1A170F";
-  document.body.style.color = "#FFF";
-  document.body.querySelector("h1").style.color = "#EEE5D8";
-  document.body.querySelector("span").style.textShadow = ".025em 0 0 #FFF";
-  document.body.querySelector("button").style.backgroundColor = "#FFF";
-  
-*/
+/* COLORS  */
+.toggle-theme h2,
+.toggle-theme p,
+.toggle-theme .subscribeText,
+.toggle-theme .submitBtnText,
+.toggle-theme #label-industry,
+.toggle-theme .survey-form-text,
+.toggle-theme #label-name,
+.toggle-theme #label-email,
+.toggle-theme .survey-form-text,
+.toggle-theme #comment {
+  color: #1A170F;
+}
+
+.toggle-theme #credit-mentor-btn,
+.toggle-theme #credit-mentee-btn {
+  color: #FFF;
+}
