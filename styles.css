@@ -156,7 +156,7 @@ textarea {
     border-left: .015em solid #1A170F;
 }
 
-#comment,
+#thoughts,
 #survey-btn {
     margin-top: .45em;
 }
@@ -303,6 +303,7 @@ input#MERGE0,
 h1,
 h2,
 .subscribeBtn,
+span#thoughts,
 .footer-link {
     color: #1A170F;
 }
@@ -337,7 +338,7 @@ h2,
 #label-name,
 #label-email,
 #label-industry,
-span#comment,
+span#thoughts,
 #survey-btn,
 .gateways,
 .footer-link {
