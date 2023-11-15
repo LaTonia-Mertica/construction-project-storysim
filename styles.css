@@ -247,6 +247,15 @@ button#credit-mentee-btn {
     animation: pulse 2s infinite;
 }
 
+button#credit-mentor-btn.pulse,
+button#credit-mentee-btn.pulse,
+button#credit-mentor-btn,
+button#credit-mentee-btn {
+    color: crimson;
+    border-right: 1.125em solid crimson;
+    border-left: 1.125em solid crimson;
+}
+
 .subpage {
     display: none;
 }
