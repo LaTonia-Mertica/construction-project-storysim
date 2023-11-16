@@ -1,5 +1,7 @@
 # CONSTRUCTION PROJECT STORYSIM
 
+##### visit live site: https://www.latoniamertica.dev/construction-project-storysim/
+
 **WHO:**<br>
 MENTEE [La'Tonia Mertica](https://www.latoniamertica.dev/), arrant curiosity<br>
 MENTOR [Chris](), genius code deconstruction
