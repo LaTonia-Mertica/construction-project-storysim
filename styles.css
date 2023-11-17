@@ -388,6 +388,12 @@ form {
     }
 }
 
+@media only screen and (max-width: 1056px) {
+    .survey-column {
+        box-shadow: none;
+    }
+}
+
 @media only screen and (max-width: 1052px) {
     h1 {
         font-size: 6.25em;
@@ -412,11 +418,34 @@ form {
     p {
         width: 47%;
     }
+
+    div.column.survey-column {
+        padding-left: 3.45em;
+    }
+}
+
+
+@media only screen and (max-width: 979px) {
+    div.column.survey-column {
+        margin-top: -31em;
+        padding-left: 5.45em;
+    }
+
+    #industry {
+        margin-top: 1.45em;
+    }
 }
 
 @media only screen and (max-width: 968px) {
     h1 {
         font-size: 5.75em;
+    }
+}
+
+@media only screen and (max-width: 907px) {
+    div.column.survey-column {
+        margin-top: -31em;
+        padding-left: 10em;
     }
 }
 
@@ -437,5 +466,34 @@ form {
 
     h1 {
         font-size: 4.25em;
+    }
+}
+
+@media only screen and (max-width: 757px) {
+
+    i.toggleBtn.fa-dumpster {
+        margin-top: 1.75em;
+    }
+
+    h1 {
+        margin-top: 5.25em;
+    }
+
+    .survey-column {
+        display: none;
+    }
+
+    h2,
+    p,
+    form.subscribeForm {
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
+
+
+    button#subscribeBtn {
+        width: 50%;
+        margin-top: 1.25em;
     }
 }
