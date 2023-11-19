@@ -12,7 +12,6 @@ body {
 }
 
 i.toggleBtn.fa-dumpster {
-    color: #1A170F;
     margin-top: 1.25em;
 }
 
@@ -26,18 +25,10 @@ i.toggleBtn.fa-dumpster {
     height: 50vh;
 }
 
-div.maplibregl-ctrl-attrib-inner,
-.maplibregl-compact-show {
-    display: none;
-}
-
-.description-survey-row {
-    margin-top: -21em;
-}
-
 h1 {
     font-size: 7em;
     line-height: 1em;
+    margin-top: .65em !important;
     margin-left: .35em;
 }
 
@@ -47,7 +38,6 @@ h1 {
 
 .description-survey-inner-row {
     padding: 1.25em 0;
-    background-color: #FFF;
 }
 
 h2 {
@@ -63,10 +53,6 @@ p {
 
 input#MERGE0 {
     border-bottom: .05em dotted #1A170F;
-}
-
-input {
-    background-color: transparent;
 }
 
 ::placeholder {
@@ -89,9 +75,7 @@ input {
 
     border-width: 0;
     border-top: 0.125em solid #1A170F;
-    border-right: 0.125em solid #50C2C7;
     border-bottom: 0.125em solid #1A170F;
-    border-left: 0.125em solid #50C2C7;
     box-shadow: .05em .05em #1A170F, .1em .1em .1em #50C2C7;
 }
 
@@ -118,15 +102,13 @@ input {
 }
 
 div.column.survey-column {
-    margin-top: -27.5em;
+    margin-top: -28em;
 }
 
 .survey-column {
     float: right;
     width: 33em;
-    margin: -27em 1.65em 0 0;
     padding: 1.05em;
-    box-shadow: 0 0 .15em .15em #50C2C7;
 }
 
 .description-survey-row:after {
@@ -142,17 +124,13 @@ input[type="checkbox"] {
 
 #industry,
 #survey-btn {
-    color: #FFF;
     padding: .25em .65em;
-    background-color: #1A170F;
     border-radius: .45em;
     box-shadow: 0 0 0 0.0625em #50C2C7 inset, 0 0 0 0.125em rgba(255, 255, 255, 0.15) inset, 0 0 0 0 #1A170F, 0 0 0 0.0625em rgba(0, 0, 0, 0.4), 0 0em 0.5em 0.0625em rgba(0, 0, 0, 0.5);
-
 }
 
 textarea {
     width: 47%;
-    border: none;
     border-left: .015em solid #1A170F;
 }
 
@@ -163,7 +141,6 @@ textarea {
 
 #industry:hover,
 #survey-btn:hover {
-    color: #1A170F;
     background-color: #50C2C7;
 }
 
@@ -171,7 +148,6 @@ textarea {
     display: flex;
     justify-content: center;
     margin: 3.65em -.7em -2.65em 0;
-    background-color: #1A170F;
     padding: 1.25em 0 2em 0;
 }
 
@@ -182,7 +158,6 @@ img {
 
 .gateways {
     font-size: 1.65em;
-    color: #FFF;
 }
 
 .gateways.construction:hover {
@@ -200,14 +175,9 @@ img {
 footer {
     width: 101%;
     padding-right: 2.15em;
-    display: block;
     text-align: right;
     margin-top: 3.75em;
     background-color: #FCF0CC;
-}
-
-.footer-link {
-    text-decoration: none;
 }
 
 .forwardSlash {
@@ -222,9 +192,7 @@ button#credit-mentee-btn {
     width: 5em;
     margin-bottom: 1.45em;
     border-top: none;
-    border-right: 0.125em solid #50C2C7;
     border-bottom: none;
-    border-left: 0.125em solid #50C2C7;
     border-radius: .75em;
 }
 
@@ -243,7 +211,6 @@ button#credit-mentee-btn {
 }
 
 .pulse {
-    display: block;
     animation: pulse 2s infinite;
 }
 
@@ -256,14 +223,6 @@ button#credit-mentee-btn {
     border-left: 1.125em solid crimson;
 }
 
-.subpage {
-    display: none;
-}
-
-.active {
-    display: block;
-}
-
 #credit-mentor-page {
     margin-top: 2.15em;
 }
@@ -273,17 +232,15 @@ video,
 #credit-mentee-btn {
     width: 67%;
     height: 25%;
-    margin-left: 3em;
     margin-bottom: 2.25em;
 }
 
 a {
-    color: #50C2C7;
-    text-decoration: none;
     font-size: xx-small;
 }
 
 /* BACKGROUNDS */
+input,
 .gateways,
 .footer-link,
 button#storysim-construction-btn,
@@ -294,6 +251,12 @@ button#storysim-solopreneur-btn,
 button#credit-mentor-btn,
 button#credit-mentee-btn {
     background-color: transparent;
+}
+
+#industry,
+#survey-btn,
+.gateway-row {
+    background-color: #1A170F;
 }
 
 /* BORDERS  */
@@ -307,11 +270,23 @@ input#MERGE0,
     border: none;
 }
 
+.subscribeBtn,
+button#storysim-construction-btn,
+button#storysim-pilot-btn,
+button#storysim-solopreneur-btn,
+button#credit-mentor-btn,
+button#credit-mentee-btn {
+    border-right: 0.125em solid #50C2C7;
+    border-left: 0.125em solid #50C2C7;
+}
+
 /* COLORS  */
 .toggleBtn,
 h1,
 h2,
 .subscribeBtn,
+#industry:hover,
+#survey-btn:hover,
 span#thoughts,
 .footer-link {
     color: #1A170F;
@@ -319,13 +294,26 @@ span#thoughts,
 
 .toggleBtn:hover,
 .charColor,
-.footer-link:hover {
+a {
     color: #50C2C7;
+}
+
+#industry,
+#survey-btn,
+.gateways {
+    color: #FFF;
 }
 
 /* CURSORS  */
 .toggleBtn:hover,
-.subscribeBtn:hover {
+.subscribeBtn:hover,
+select#industry,
+button#survey-btn,
+button.gateways.construction,
+button.gateways.pilot,
+button.gateways.solopreneur,
+button#credit-mentor-btn.pulse,
+button#credit-mentee.btn.pulse {
     cursor: pointer;
 }
 
@@ -334,8 +322,18 @@ span#thoughts,
 #pilot:active,
 #solopreneur:active,
 #credit-mentor-page:active,
-#credit-mentee-page:active {
+#credit-mentee-page:active,
+footer,
+.pulse,
+.active {
     display: block;
+}
+
+div.maplibregl-ctrl-attrib-inner,
+.maplibregl-compact-show,
+.subpage,
+textarea {
+    display: none;
 }
 
 /* FONT FAMILIES */
@@ -368,8 +366,17 @@ h2 {
 }
 
 p,
-form {
+form,
+video,
+#credit-mentor-btn,
+#credit-mentee-btn {
     margin-left: 3em;
+}
+
+/* TEXT DECORATIONS */
+.footer-link,
+a {
+    text-decoration: none;
 }
 
 /* MEDIA QUERIES */
@@ -490,7 +497,6 @@ form {
         margin-left: auto;
         width: 50%;
     }
-
 
     button#subscribeBtn {
         width: 50%;
