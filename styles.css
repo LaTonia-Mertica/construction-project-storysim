@@ -38,6 +38,7 @@ h1 {
 
 .description-survey-inner-row {
     padding: 1.25em 0;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 h2 {
@@ -147,7 +148,7 @@ textarea {
 .gateway-row {
     display: flex;
     justify-content: center;
-    margin: 3.65em -.7em -2.65em 0;
+    margin: 2.65em -.7em -1em 0;
     padding: 1.25em 0 2em 0;
 }
 
@@ -392,12 +393,6 @@ a {
     button#credit-mentor-btn,
     button#credit-mentee-btn {
         display: none;
-    }
-}
-
-@media only screen and (max-width: 1056px) {
-    .survey-column {
-        box-shadow: none;
     }
 }
 

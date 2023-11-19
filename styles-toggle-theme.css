@@ -11,6 +11,12 @@
   background-color: #1A170F;
 }
 
+.toggle-theme .description-survey-inner-row {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-top: .025em solid orangered;
+  border-bottom: .025em solid orangered;
+}
+
 /* COLORS  */
 .toggle-theme h2,
 .toggle-theme p,
