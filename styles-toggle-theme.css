@@ -31,7 +31,7 @@
 .toggle-theme form,
 .toggle-theme label.subscribeText,
 .toggle-theme .submitBtnText,
-span#thoughts,
+.toggle-theme #thoughts,
 .toggle-theme #credit-mentor-btn,
 .toggle-theme #credit-mentee-btn {
   color: #FFF;

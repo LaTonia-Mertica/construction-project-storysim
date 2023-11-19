@@ -332,8 +332,7 @@ footer,
 
 div.maplibregl-ctrl-attrib-inner,
 .maplibregl-compact-show,
-.subpage,
-textarea {
+.subpage {
     display: none;
 }
 
